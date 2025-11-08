@@ -21,13 +21,11 @@
 ██╔═██╗ ██║╚██╗██║██║██╔══╝  ██╔══╝
 ██║  ██╗██║ ╚████║██║██║     ███████╗
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝
-CryptoSwissKnife v1 | 63 Modules
+CryptoSwissKnife v1 | 63 Modules.
 One tool to encrypt, decrypt, and sign them all.
-Type 'help' for available commands or 'banner' to display banner again
-```
+Type 'help' for available commands or 'banner' to display banner again.
 
-
-```
+>help
 CryptoSwissKnife Core Commands
 --------------------------------------------------
 help                      Show this help menu
@@ -44,9 +42,8 @@ clear                     Clear the screen
 version                   Show version information
 exit / quit / Ctrl+D      Exit the console
 --------------------------------------------------
-```
 
-```
+>show modules
 Available Modules
 --------------------------------------------------
 
@@ -108,7 +105,7 @@ lightweight/present            PRESENT lightweight block cipher (Educational Onl
 lightweight/simon              Simon lightweight block cipher (Educational Only)
 lightweight/speck              Speck lightweight block cipher (Educational Only)
 
-[4mModern Modules[0m
+Modern Modules
 modern/3des                    3DES (Triple DES) cipher (CBC mode)
 modern/aes                     AES-256-GCM authenticated encryption
 modern/blowfish                Blowfish cipher (CBC mode with PKCS7 padding)
