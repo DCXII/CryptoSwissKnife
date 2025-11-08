@@ -1,14 +1,14 @@
-# Contributing to CryptoSwissKnife
+# Contributing to CryptSwissKnife
 
-We welcome contributions to the CryptoSwissKnife project! To ensure a smooth and effective collaboration, please follow these guidelines.
+We welcome contributions to the CryptSwissKnife project! To ensure a smooth and effective collaboration, please follow these guidelines.
 
 ## How to Contribute
 
-1.  **Fork the Repository**: Start by forking the `CryptoSwissKnife` repository to your GitHub account.
+1.  **Fork the Repository**: Start by forking the `CryptSwissKnife` repository to your GitHub account.
 2.  **Clone Your Fork**: Clone your forked repository to your local machine.
     ```bash
-    git clone https://github.com/your-username/CryptoSwissKnife.git
-    cd CryptoSwissKnife
+    git clone https://github.com/your-username/CryptSwissKnife.git
+    cd CryptSwissKnife
     ```
 3.  **Create a New Branch**: Create a new branch for your feature or bug fix. Use a descriptive name.
     ```bash
@@ -37,7 +37,7 @@ We welcome contributions to the CryptoSwissKnife project! To ensure a smooth and
     git push origin feature/your-feature-name
     ```
 8.  **Create a Pull Request (PR)**:
-    *   Go to the original `CryptoSwissKnife` repository on GitHub.
+    *   Go to the original `CryptSwissKnife` repository on GitHub.
     *   You should see a prompt to create a new Pull Request from your recently pushed branch.
     *   Provide a detailed description of your changes, including why they are needed and what they accomplish.
     *   Reference any related issues.
