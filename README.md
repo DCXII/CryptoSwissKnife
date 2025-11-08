@@ -1,7 +1,6 @@
 
 
 ```
-[96m
 ██████╗██████╗ ██╗   ██╗██████╗ ████████╗
 ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝
 ██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║
@@ -22,20 +21,19 @@
 ██╔═██╗ ██║╚██╗██║██║██╔══╝  ██╔══╝
 ██║  ██╗██║ ╚████║██║██║     ███████╗
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝
-[0m
-[92mCryptoSwissKnife v1 | 63 Modules[0m
-[93m"One tool to encrypt, decrypt, and sign them all."[0m
-[93mType 'help' for available commands or 'banner' to display banner again[0m
-```
 
+CryptoSwissKnife v1 | 63 Modules.
+One tool to encrypt, decrypt, and sign them all.
+Type 'help' for available commands or 'banner' to display banner again.
 
-```
-[1mCryptoSwissKnife Core Commands[0m
+> help
+
+CryptoSwissKnife Core Commands
 --------------------------------------------------
 help                      Show this help menu
 use <module>              Select a module (e.g., use caesar)
 show modules              List all available modules
-show options              Show options for the *current* module
+show options              Show options for the current module
 info <module>             Show detailed info for a specific module (e.g., info aes)
 search <keyword>          Search for modules
 set <OPTION> <VALUE>      Set an option value (e.g., set TEXT "Hello")
@@ -46,13 +44,13 @@ clear                     Clear the screen
 version                   Show version information
 exit / quit / Ctrl+D      Exit the console
 --------------------------------------------------
-```
 
-```
-[1mAvailable Modules[0m
+> show modules
+
+Available Modules
 --------------------------------------------------
 
-[4mAsymmetric Modules[0m
+Asymmetric Modules
 asymmetric/dh                  Diffie-Hellman (DH) key exchange
 asymmetric/ecdh                Elliptic Curve Diffie-Hellman (ECDH) key exchange
 asymmetric/ecdsa               Elliptic Curve Digital Signature Algorithm (ECDSA)
@@ -60,10 +58,10 @@ asymmetric/eddsa               EdDSA (Ed25519) Digital Signatures
 asymmetric/elgamal             ElGamal encryption and key generation
 asymmetric/rsa                 RSA (Rivest–Shamir–Adleman) operations
 
-[4mBlockchain Modules[0m
+Blockchain Modules
 blockchain/simple_blockchain   A simplified blockchain implementation
 
-[4mClassical Modules[0m
+Classical Modules
 classical/adfgvx               ADFGVX cipher (WWI German cipher)
 classical/affine               Affine cipher: E(x) = (ax + b) mod 26
 classical/atbash               Atbash cipher - reverses alphabet
@@ -79,22 +77,22 @@ classical/railfence            Rail fence cipher - transposition cipher
 classical/scytale              Scytale cipher (simple columnar transposition)
 classical/vigenere             Vigenère cipher encryption/decryption
 
-[4mCryptocurrency Modules[0m
+Cryptocurrency Modules
 cryptocurrency/wallet          Generate and manage cryptocurrency wallets (simplified)
 
-[4mHash Modules[0m
+Hash Modules
 hash/digest                    Generate cryptographic hashes
 hash/tiger                     Generate a hash using the Tiger algorithm
 
-[4mHomomorphic Modules[0m
+Homomorphic Modules
 homomorphic/bfv                BFV Fully Homomorphic Encryption
 homomorphic/ckks               CKKS Fully Homomorphic Encryption
 homomorphic/paillier           Paillier Homomorphic Encryption
 
-[4mHybrid Modules[0m
+Hybrid Modules
 hybrid/pgp                     PGP encryption, decryption, signing, and key management
 
-[4mKdf Modules[0m
+Kdf Modules
 kdf/argon2_hash                Hash a password using Argon2 (modern standard)
 kdf/argon2_verify              Verify a password against an Argon2 hash
 kdf/bcrypt_hash                Hash a password using bcrypt
@@ -104,13 +102,13 @@ kdf/pbkdf2                     Derive a key from a password using PBKDF2-HMAC-SH
 kdf/scrypt_hash                Hash a password using scrypt
 kdf/scrypt_verify              Verify a password against an scrypt hash
 
-[4mLightweight Modules[0m
+Lightweight Modules
 lightweight/ascon              Ascon authenticated encryption (NIST Lightweight Crypto Standard)
 lightweight/present            PRESENT lightweight block cipher (Educational Only)
 lightweight/simon              Simon lightweight block cipher (Educational Only)
 lightweight/speck              Speck lightweight block cipher (Educational Only)
 
-[4mModern Modules[0m
+Modern Modules
 modern/3des                    3DES (Triple DES) cipher (CBC mode)
 modern/aes                     AES-256-GCM authenticated encryption
 modern/blowfish                Blowfish cipher (CBC mode with PKCS7 padding)
@@ -126,20 +124,20 @@ modern/serpent                 Serpent cipher (CBC mode)
 modern/skipjack                Skipjack cipher - INSECURE (Educational Only)
 modern/twofish                 Twofish cipher (CBC mode)
 
-[4mPqc Modules[0m
+Pqc Modules
 pqc/dilithium                  Dilithium Post-Quantum Digital Signature Module
 pqc/falcon                     Falcon Post-Quantum Digital Signatures
 pqc/kyber                      Kyber Post-Quantum Key Encapsulation Mechanism
 pqc/sphincs                    SPHINCS+ Post-Quantum Digital Signatures
 
-[4mQuantum Modules[0m
+Quantum Modules
 quantum/qkd                    Quantum Key Distribution (BB84 Protocol) Simulation
 
-[4mStego Modules[0m
+Stego Modules
 stego/lsb_image_hide           Hide a secret message or file in a PNG image via LSB
 stego/lsb_image_reveal         Reveal a secret message or file from an LSB stego image
 
-[4mStream Modules[0m
+Stream Modules
 stream/rc4                     RC4 stream cipher - INSECURE
 stream/salsa20                 Salsa20 stream cipher
 --------------------------------------------------
@@ -294,4 +292,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Console Overview
 
 Here's an overview of the CryptoSwissKnife console, including its banner, available commands, and modules.
-
